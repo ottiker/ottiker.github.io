@@ -19,8 +19,8 @@ title: LifeBase
 email: contact@ottiker.org
 url: https://ottiker.github.io
 description: "LifeBase modules, usage and community portal."
-skills: "REMOVE"
-meta_author: LastName FirstName
+skills: "Ich bin de ruedi."
+meta_author: webmaster ottiker.org
 
 # Google webmaster tools
 google_verify:
@@ -29,21 +29,21 @@ google_verify:
 bing_verify:
 
 # Contact form:
-# - static : pass through formspree.io to validate email sending
+# - static : pass through formspree.io to validate email sending
 # - disqus : replace contact form by disqus thread
 # - comment the line below if you want to stick with the default PHP contact form
 contact: static
 
 # If you use disqus you need disqus shortname
 # https://help.disqus.com/customer/portal/articles/466208
-disqus_shortname: myshortname
+#disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 18bc9c #80B3FF
-  primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  primary: 086788 #80B3FF
+  primary-rgb: "8,103,136" #"128,179,255"
+  secondary: 0C090D #FD6E8A
+  secondary-dark: 2E382E #A2122F
 
 # Footer settings
 footer:
@@ -64,7 +64,7 @@ address:
   - line: Solar System, Earth
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'RENAME THIS SECTION'
 
 # Build settings
 markdown: kramdown
