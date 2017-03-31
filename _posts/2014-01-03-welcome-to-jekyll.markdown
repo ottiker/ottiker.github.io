@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  "Space"
 date:   2014-01-03 22:48:35
 categories: group projects space
