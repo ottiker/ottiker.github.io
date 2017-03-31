@@ -11,7 +11,7 @@ title: "Robottiker"
 	<h3>Projects</h3>
 <hr/>
 
-<img src="img/app-thumbs.png" alt="alt text" class="pull-right" style="margin-bottom:20px;">
+<img src="img/circle_black.png" alt="alt text" class="pull-right" style="margin-bottom:20px;">
 
 * Space
 * Water

@@ -3,5 +3,5 @@ markdown: redcarpet
 pygments: true
 
 tagline: "Robottiker Documentation and Concepts"
-image: "img/app.png"
+image: "img/circle_white.png"
 repo: "Robottiker"
