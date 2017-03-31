@@ -1,4 +1,4 @@
-dauxyll
+Robottiker website
 =======
 
-This is a Jekyll theme based on daux.io.
+The website contains the public documentation and concepts.
