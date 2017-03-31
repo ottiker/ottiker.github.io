@@ -15,11 +15,10 @@
 # in the templates via {{ site.myvariable }}.
 
 # Site settings
-title: LifeBase
+title: Robottiker Docs
 email: contact@ottiker.org
-url: https://ottiker.github.io
-description: "LifeBase modules, usage and community portal."
-skills: "Ich bin de ruedi."
+url: https://robottiker.github.io
+description: "Robottiker project documentations."
 meta_author: webmaster ottiker.org
 
 # Google webmaster tools
@@ -47,24 +46,12 @@ color:
 
 # Footer settings
 footer:
-  copyright: ottiker
+  copyright: Robottiker
   location: Earth
-  social: Around the Web
-  credits: Credits
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: github
-    url: http://github.com/ottiker
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Solar System, Earth
-
-# Credits content
-credits: 'RENAME THIS SECTION'
+  - line: Solar System, Planet 3, Earth
 
 # Build settings
 markdown: kramdown
