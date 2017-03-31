@@ -1,6 +1,6 @@
 ---
 layout: index
-title: "Dauxyll"
+title: "Robottiker"
 ---
 
 <p class="lead">
@@ -8,9 +8,7 @@ title: "Dauxyll"
 </p>
 
 <hr/>
-
-<h3>Projects</h3>
-
+	<h3>Projects</h3>
 <hr/>
 
 <img src="img/app-thumbs.png" alt="alt text" class="pull-right" style="margin-bottom:20px;">
