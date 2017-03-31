@@ -1,7 +1,7 @@
-name: Your New Jekyll Site
+name: Robottiker
 markdown: redcarpet
 pygments: true
 
-tagline: "Inspired by Daux.io, powered by Jekyll."
+tagline: "Robottiker Documentation and Concepts"
 image: "img/app.png"
-repo: "davidzchen/dauxyll"
+repo: "Robottiker"
