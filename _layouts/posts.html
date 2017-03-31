@@ -27,13 +27,14 @@
         </div>
         <div class="right-column content-area span9">
           <div class="content-page">
+			{% for post in site.posts %}
             <article>
               <div class="page-header sub-header clearfix">
                 <h1>{{page.title}}</h1>
                 <span style="float: left; font-size: 10px; color: gray;">{{ page.date | date_to_string }}</span>
               </div>
-              {{ content }}
             </article>
+			{% endfor %}
           </div>
         </div>
       </div>
