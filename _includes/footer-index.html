@@ -1,0 +1,27 @@
+
+    <div class="homepage-footer well container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="span5 offset1">
+            <?php if (!empty($options['links'])) { ?>
+              <ul class="footer-nav">
+                <?php foreach($options['links'] as $name => $url) { ?>
+                  <li><a href="<?php echo $url;?>" target="_blank"><?php echo $name;?></a></li>
+                <?php } ?>
+              </ul>
+            <?php } ?>
+          </div>
+          <div class="span5">
+            <div class="pull-right">
+              <?php if (!empty($options['twitter'])) { ?>
+                <?php foreach($options['twitter'] as $handle) { ?>
+                  <div class="twitter">
+                    <iframe allowtransparency="true" frameborder="0" scrolling="no" style="width:162px; height:20px;" src="https://platform.twitter.com/widgets/follow_button.html?screen_name=<?php echo $handle;?>&amp;show_count=false"></iframe>
+                  </div>
+                <?php } ?>
+              <?php } ?>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
