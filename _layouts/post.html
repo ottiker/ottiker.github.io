@@ -22,7 +22,7 @@
             </button>
           </div>
           <div id="sub-nav-collapse" class="sub-nav-collapse">
-            {% include nav.html %}
+            {% include nav_posts.html %}
           </div>
         </div>
         <div class="right-column content-area span9">
@@ -30,7 +30,7 @@
             <article>
               <div class="page-header sub-header clearfix">
                 <h1>{{page.title}}</h1>
-                <span style="float: left; font-size: 10px; color: gray;">{{ page.date | date_to_string }}</span>
+                <span style="float: left; font-size: 10px; color: gray;">{{ page.date }}</span>
               </div>
 			  {{ content }}
             </article>

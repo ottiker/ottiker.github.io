@@ -2,21 +2,24 @@
 layout: index
 title: "Robottiker"
 ---
-
 <p class="lead">
-	<strong>Robottiker</strong> Documentations and Concepts.
+	<strong>Projects</strong> overview
 </p>
-
 <hr/>
-<h3>Projects</h3>
-<hr/>
-
-<img src="img/app-thumbs.png" alt="alt text" class="pull-right" style="margin-bottom:20px;">
-
-* Space
-* Water
-* Power
-* Food
-
-<div class="clear"></div>
+{% for project in site.collections %}
+{% if project.label != "posts" %}
+<div>
+	<h3><a href="/{{ project.label }}/index.html">{{ project.label }}</a></h3>
+	<ul>
+	{% for document in project.docs %}
+	{% if document.layout != "project_index" %}
+		<li>
+			<a href="{{ document.url }}">{{ document.title }}</a>
+		</li>
+	{% endif  %}
+	{% endfor %}
+	</ul>
+</div>
+{% endif  %}
+{% endfor  %}
 <hr/>

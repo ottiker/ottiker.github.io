@@ -1,0 +1,18 @@
+<ul class="nav nav-list">
+{% for project in site.collections %}
+{% if project.label != "posts" %}
+	<li class="open">
+		<a href="/{{ project.label }}/index.html">{{ project.label }}</a>
+		<ul class="nav nav list">
+		{% for document in project.docs %}
+		{% if document.layout != "project_index" %}
+			<li>
+				<a href="{{ document.url }}">{{ document.title }}</a>
+			</li>
+		{% endif  %}
+		{% endfor %}
+		</ul>
+	</li>
+{% endif  %}
+{% endfor  %}
+</ul>
