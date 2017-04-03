@@ -28,10 +28,22 @@
         <div class="right-column content-area span9">
           <div class="content-page">
             <article>
-              <div class="page-header sub-header clearfix">
-                <h1>{{page.title}}</h1>
+			  <div class="page-header sub-header clearfix">
+                <h1>{{ page.collection }}</h1>
               </div>
-              {{ content }}
+			  	<ul>
+				{% for collection in site.collections %}
+				{% if collection.label == page.collection %}
+				{% for document in collection.docs %}
+				{% if document.layout != "project_index" %}
+					<li>
+						<a href="{{ document.url }}">{{ document.title }}</a>
+					</li>
+				{% endif %}
+				{% endfor %}
+				{% endif %}
+				{% endfor %}
+				</ul>
             </article>
           </div>
         </div>
