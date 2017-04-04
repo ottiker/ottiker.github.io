@@ -2,7 +2,7 @@ name: Robottiker
 highlighter: true
 future: true
 tagline: "Documentations"
-image: "img/app.png"
+image: "img/front.jpg"
 repo: "Robottiker"
 collections:
   space:
