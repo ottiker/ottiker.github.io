@@ -1,5 +1,5 @@
 name: Robottiker
-highlighter: true
+highlighter: "rouge"
 future: true
 tagline: "Documentations"
 image: "img/front.jpg"
