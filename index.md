@@ -1,6 +1,6 @@
 ---
 layout: index
-title: "Robottiker"
+title: "Planetary Technology"
 ---
 <p class="lead">
 	<strong>Title</strong> more title
