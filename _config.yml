@@ -1,9 +1,9 @@
-name: Robottiker
+name: "Planetary Technology"
 highlighter: "rouge"
 future: true
 tagline: "Documentations"
 image: "img/front.jpg"
-repo: "Robottiker"
+repo: "planetarytechnology"
 collections:
   space:
     output: true
