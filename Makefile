@@ -1,18 +1,9 @@
-LESSC = lessc
-OBJ = \
-	css/daux-blue.css \
-	css/daux-green.css \
-	css/daux-navy.css \
-	css/daux-red.css
-
-all: $(OBJ)
-
-css/%.css: less/%.less less/import/daux-base.less
-	$(LESSC) $< $@
+all:
+	npm install && cd node_modules/bulma && npm install && npm run build && cd ../../ && cp node_modules/bulma/css/bulma.css css/
 
 clean:
-	rm -f $(OBJ)
+	rm -f css/*
 
-.SUFFIXES: .css .less
+.SUFFIXES: .css .sass
 
 .PHONY: all clean

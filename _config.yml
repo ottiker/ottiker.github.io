@@ -1,7 +1,7 @@
 name: "Planetary Technology"
 highlighter: "rouge"
 future: true
-tagline: "Documentations"
+tagline: "The spice must flow"
 image: "img/front.jpg"
 repo: "planetarytechnology"
 collections:
