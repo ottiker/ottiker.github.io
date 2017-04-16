@@ -1,58 +1,53 @@
 <!doctype html>
-<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
-<!--[if IE 7]>  <html class="no-js ie7 oldie" lang="en"> <![endif]-->
-<!--[if IE 8]>  <html class="no-js ie8 oldie" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
-  <head>
-    {% include includes.html %}
-  </head>
-  <body>
-    <!-- Hompage -->
-    {% include header.html %}
+<html lang="en">
+	<head>
+		{% include includes.html %}
+	</head>
+	<body>
+		
+		<!-- Background -->
+		<div class="bg-infinite">
+			<div class="bg-infinite-1"></div>
+			<div class="bg-infinite-2"></div>
+			<div class="bg-infinite-3"></div>
+		</div>
+		<img src="{{site.background}}" alt="background">
 
-    <div class="homepage-hero well container-fluid">
-      <div class="container">
-        <div class="row">
-          <div class="text-center span12">
-            <h2>{{site.tagline}}</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="span10 offset1">
-            <img class="homepage-image" src="{{page.context}}/{{site.image}}" alt="{{page.title}}">
-          </div>
-        </div>
-      </div>
-    </div>
+		<!-- Header and Footer -->
+		{% include header.html %}
+		{% include footer.html %}
 
-    <div class="hero-buttons container-fluid">
-      <div class="container">
-        <div class="row">
-          <div class="text-center span12">
-            <a href="https://github.com/{{site.repo}}" class="btn btn-secondary btn-hero">
-             	View On GitHub
-            </a>
-            <a href="docs.html" class="btn btn-primary btn-hero">
-             	View Documentation
-            </a>
-			<a href="posts.html" class="btn btn-secondary btn-hero">
-            	Blog
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
+		<!-- Tagline -->
+		<div class="tagline">
+			<h2>{{site.name}}</h2>
+		</div>
 
-    <div class="homepage-content container-fluid">
-      <div class="container">
-        <div class="row">
-          <div class="span10 offset1">
-            {{ content }}
-          </div>
-        </div>
-      </div>
-    </div>
-
-    {% include footer.html %}
-  </body>
+		<!-- Hero menu -->
+		<div class="nav-hero">
+			<figure>
+				<div>
+					<span>View On GitHub</span>
+					<span>
+						<a href="https://github.com/{{site.repo}}" class="btn btn-secondary btn-hero">View On GitHub</a>
+					</span>
+				</div>
+			</figure>
+			<figure>
+				<div>
+					<span>Documentation</span>
+					<span>
+						<a href="docs.html" class="btn btn-primary btn-hero">Documentation</a>
+					</span>
+				</div>
+			</figure>
+			<figure>
+				<div>
+					<span>Blog</span>
+					<span>
+						<a href="posts.html" class="btn btn-secondary btn-hero">Blog</a>
+					</span>
+				</div>
+			</figure>
+		</div>	
+	</body>
 </html>

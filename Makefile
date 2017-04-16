@@ -1,5 +1,5 @@
 all:
-	npm install && cd node_modules/bulma && npm install && npm run build && cd ../../ && cp node_modules/bulma/css/bulma.css css/
+	npm install && cd node_modules/bulma && npm install && npm run build && cd ../../ && cp node_modules/bulma/css/* css/
 
 clean:
 	rm -f css/*

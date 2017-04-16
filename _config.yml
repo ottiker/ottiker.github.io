@@ -1,9 +1,8 @@
 name: "Planetary Technology"
 highlighter: "rouge"
 future: true
-tagline: "The spice must flow"
-image: "img/front.jpg"
 repo: "planetarytechnology"
+background: "/img/background.jpg"
 collections:
   space:
     output: true
