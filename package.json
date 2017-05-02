@@ -1,23 +1,26 @@
 {
   "name": "planetarytechnology.github.io",
-  "version": "0.1.0",
-  "description": "Planetary Technology Website",
-  "main": "index.html",
+  "version": "1.0.0",
+  "description": "Planetary Technology Github Pages",
+  "main": "index.js",
   "dependencies": {},
   "devDependencies": {
-    "less": "^2.7.2"
+    "autoprefixer": "^6.7.7",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^6.4.0"
   },
   "scripts": {
-	"less": "./node_modules/less/bin/lessc less/theme-retro.less css/styles.css"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/planetarytechnology/planetarytechnology.github.io.git"
+    "url": "git+https://github.com/lucaboieru/planetarytechnology.github.io.git"
   },
-  "author": "Adrian Ottiker <adrian@ottiker.com>",
-  "license": "MIT",
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/planetarytechnology/planetarytechnology.github.io/issues"
+    "url": "https://github.com/lucaboieru/planetarytechnology.github.io/issues"
   },
-  "homepage": "https://github.com/planetarytechnology/planetarytechnology.github.io#readme"
+  "homepage": "https://github.com/lucaboieru/planetarytechnology.github.io#readme"
 }
