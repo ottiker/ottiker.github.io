@@ -1,5 +1,5 @@
 ---
 layout: project_index
-title:  "Index"
+title:  "Power"
 categories: docs power
 ---

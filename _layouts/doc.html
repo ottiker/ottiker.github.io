@@ -17,21 +17,9 @@
         <div class="content-page">
           <article>
             <div>
-              <h1 class="capitalize">{{ page.collection }}</h1>
+              <h1>{{page.title}}</h1>
             </div>
-            <ul>
-            {% for collection in site.collections %}
-            {% if collection.label == page.collection %}
-            {% for document in collection.docs %}
-            {% if document.layout != "project_index" %}
-              <li>
-                <a href="{{ document.url }}">{{ document.title }}</a>
-              </li>
-            {% endif %}
-            {% endfor %}
-            {% endif %}
-            {% endfor %}
-            </ul>
+            {{ content }}
           </article>
         </div>
       </div>
@@ -49,4 +37,3 @@
     </div>
   </body>
 </html>
-
