@@ -1,5 +1,5 @@
 ---
 layout: project_index
-title:  "Index"
+title:  "Water"
 categories: docs water
 ---

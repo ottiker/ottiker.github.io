@@ -6,48 +6,47 @@
   <head>
     {% include includes.html %}
   </head>
-  <body>
+  <body class="docs">
+    {% include header.html %}
     <!-- Docs -->
-    <div class="container-fluid fluid-height wrapper">
-      {% include header.html %}
-
-      <div class="row-fluid columns content">
-        <div class="left-column article-tree span3">
-          <!-- For Mobile -->
-          <div class="responsive-collapse">
-            <button type="button" class="btn btn-sidebar" id="menu-spinner-button">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-          </div>
-          <div id="sub-nav-collapse" class="sub-nav-collapse">
-            {% include nav_docs.html %}
-          </div>
-        </div>
-        <div class="right-column content-area span9">
-          <div class="content-page">
-            <article>
-			  <div class="page-header sub-header clearfix">
-                <h1>{{ page.collection }}</h1>
-              </div>
-			  	<ul>
-				{% for collection in site.collections %}
-				{% if collection.label == page.collection %}
-				{% for document in collection.docs %}
-				{% if document.layout != "project_index" %}
-					<li>
-						<a href="{{ document.url }}">{{ document.title }}</a>
-					</li>
-				{% endif %}
-				{% endfor %}
-				{% endif %}
-				{% endfor %}
-				</ul>
-            </article>
-          </div>
+    <div class="main-container container">
+      <div class="side-container hidden-xs">
+        {% include nav_docs.html %}
+      </div>
+      <div class="content-container">
+        <div class="content-page">
+          <article>
+            <div>
+              <h1 class="capitalize">{{ page.collection }}</h1>
+            </div>
+            <ul>
+            {% for collection in site.collections %}
+            {% if collection.label == page.collection %}
+            {% for document in collection.docs %}
+            {% if document.layout != "project_index" %}
+              <li>
+                <a href="{{ document.url }}">{{ document.title }}</a>
+              </li>
+            {% endif %}
+            {% endfor %}
+            {% endif %}
+            {% endfor %}
+            </ul>
+          </article>
         </div>
       </div>
     </div>
+    {% include footer.html %}
+    <div class="sub-nav visible-xs">
+      <div class="nav-btn" onclick="$('body').toggleClass('navigation-open')">
+        NAVIGATE DOCUMENTATION
+        <span class="chevron">
+          <span></span>
+          <span></span>
+        </span>
+      </div>
+      {% include nav_docs.html %}
+    </div>
   </body>
 </html>
+

@@ -4,11 +4,13 @@
 // COLORS
 $color-accent: #E44A66;
 $color-primary: #78A15D;
+$color-secondary: #AAAAAA;
 $color-dark: #000000;
 $color-light: #D3E8E1;
 
 // SIZES
 $size-side-nav-width: 150px;
+$size-nav-height: 72px;
 
 body {
   font-size: 16px;
@@ -27,6 +29,10 @@ a {
 
 .h-100 {
   height: 100%;
+}
+
+.capitalize {
+	text-transform: capitalize;
 }
 
 // Margins

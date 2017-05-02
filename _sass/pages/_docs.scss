@@ -5,6 +5,10 @@ body.docs {
   .main-container {
     font-size: 0;
 
+    .post-date {
+      color: $color-secondary;
+    }
+
     .side-container {
       padding-top: 140px;
       width: $size-side-nav-width;
@@ -19,7 +23,7 @@ body.docs {
           a {
             text-align: right;
             background-color: transparent;
-            color: #aaa;
+            color: $color-secondary;
             position: relative;
             font-size: 14px;
             padding: 0 15px;
@@ -46,7 +50,7 @@ body.docs {
     left: 0;
     right: 0;
     top: calc(100% - 60px);
-    height: calc(100vh - 72px);
+    height: calc(100vh - #{$size-nav-height});
     background-color: #fff;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
     transition: top 0.4s;
@@ -92,7 +96,7 @@ body.docs {
           content: '';
           position: absolute;
           height: 1px;
-          background: #aaa;
+          background-color: $color-secondary;
           width: 20px;
           bottom: 0px;
           left: 50%;
@@ -100,9 +104,10 @@ body.docs {
         }
 
         a {
-          color: #aaa;
+          color: $color-secondary;
           text-align: center;
           padding: 0;
+          background-color: transparent;
         }
 
         & > a {
@@ -115,7 +120,7 @@ body.docs {
 
   &.navigation-open {
     .sub-nav {
-      top: 72px;
+      top: $size-nav-height;
 
       .nav-btn {
         .chevron {

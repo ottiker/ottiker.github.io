@@ -28,7 +28,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel mauris at
 
 ![Hello World][logo]{: .img-small}
 
-[logo]: https://scontent.fomr1-1.fna.fbcdn.net/v/t31.0-8/17880523_1488265987910235_2629404844535117774_o.jpg?oh=e284ca3c486bc93ee43f38a323b86a42&oe=59758BE8 "Hello world"
+[logo]: http://placehold.it/512x256 "Hello world"
 
 ### Step 4
 
