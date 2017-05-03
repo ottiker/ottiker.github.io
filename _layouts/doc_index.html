@@ -1,14 +1,10 @@
 <!doctype html>
-<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
-<!--[if IE 7]>  <html class="no-js ie7 oldie" lang="en"> <![endif]-->
-<!--[if IE 8]>  <html class="no-js ie8 oldie" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<html lang="en">
   <head>
     {% include includes.html %}
   </head>
   <body class="docs">
     {% include header.html %}
-    <!-- Docs -->
     <div class="main-container container">
       <div class="side-container hidden-xs">
         {% include nav_docs.html %}
@@ -23,7 +19,7 @@
             {% for collection in site.collections %}
             {% if collection.label == page.collection %}
             {% for document in collection.docs %}
-            {% if document.layout != "project_index" %}
+            {% if document.layout != "doc_index" %}
               <li>
                 <a href="{{ document.url }}">{{ document.title }}</a>
               </li>

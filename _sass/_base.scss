@@ -32,7 +32,7 @@ a {
 }
 
 .capitalize {
-	text-transform: capitalize;
+  text-transform: capitalize;
 }
 
 // Margins
@@ -47,4 +47,18 @@ a {
 
 .main-container {
   min-height: calc(100vh - 30px);
+}
+
+.github-ribbon {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  border: 0;
+  width: 120px;
+}
+
+@media (max-width: 767px) {
+  .github-ribbon {
+    width: 100px;
+  }
 }
