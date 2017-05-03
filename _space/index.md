@@ -1,5 +1,5 @@
 ---
 layout: doc_index
-title:  "Index"
+title:  "Space"
 categories: space
 ---

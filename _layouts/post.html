@@ -3,20 +3,35 @@
   <head>
     {% include includes.html %}
   </head>
-  <body>
+  <body class="blog">
     {% include header.html %}
-	<div class="content">
-		<div></div>
-		<div>
-			<div class="row">
-				<h1>{{page.title}}</h1>
-			</div>
-			<div class="row">
-				{{ content }}
-			</div>
-		</div>
-		<div></div>
-	</div>
+    <!-- Docs -->
+    <div class="main-container container">
+      <div class="side-container hidden-xs">
+        {% include nav_posts.html %}
+      </div>
+      <div class="content-container">
+        <div class="content-page">
+          <article>
+            <div>
+              <h1>{{page.title}}</h1>
+              <p class="post-date">{{page.date | date: '%d %B %Y'}}</p>
+            </div>
+            {{ content }}
+          </article>
+        </div>
+      </div>
+    </div>
     {% include footer.html %}
+    <div class="sub-nav visible-xs">
+      <div class="nav-btn" onclick="$('body').toggleClass('navigation-open')">
+        NAVIGATE BLOG
+        <span class="chevron">
+          <span></span>
+          <span></span>
+        </span>
+      </div>
+      {% include nav_posts.html %}
+    </div>
   </body>
 </html>

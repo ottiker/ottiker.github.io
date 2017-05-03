@@ -1,53 +1,27 @@
 <!doctype html>
-<html lang="en">
-	<head>
-		{% include includes.html %}
-	</head>
-	<body>
-		
-		<!-- Background -->
-		<div class="bg-infinite">
-			<div class="bg-infinite-1"></div>
-			<div class="bg-infinite-2"></div>
-			<div class="bg-infinite-3"></div>
-		</div>
-		<img src="{{site.background}}" alt="background">
-
-		<!-- Header and Footer -->
-		{% include header.html %}
-		{% include footer.html %}
-
-		<!-- Tagline -->
-		<div class="tagline">
-			<h2>{{site.name}}</h2>
-		</div>
-
-		<!-- Hero menu -->
-		<div class="nav-hero">
-			<figure>
-				<div>
-					<span>View On GitHub</span>
-					<span>
-						<a href="https://github.com/{{site.repo}}" class="btn btn-secondary btn-hero">View On GitHub</a>
-					</span>
-				</div>
-			</figure>
-			<figure>
-				<div>
-					<span>Documentation</span>
-					<span>
-						<a href="docs.html" class="btn btn-primary btn-hero">Documentation</a>
-					</span>
-				</div>
-			</figure>
-			<figure>
-				<div>
-					<span>Blog</span>
-					<span>
-						<a href="posts.html" class="btn btn-secondary btn-hero">Blog</a>
-					</span>
-				</div>
-			</figure>
-		</div>	
-	</body>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>  <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>  <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+  <head>
+    {% include includes.html %}
+  </head>
+  <body class="landing">
+    {% include header.html %}
+    <div class="main-container">
+      <img class="sketch" src="/img/landing-sketch.png" alt="Planetary Technology">
+      <div class="content-container">
+        <h1 class="main-heading">SELF-SUSTAINABLE<br>ENVIRONMENT</h1>
+        <p class="main-description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam gravida est consequat ante imperdiet auctor. Vestibulum placerat.
+        </p>
+        <div class="action-container">
+          <a href="{{site.github_url}}" class="button" target="_blank">View on Github</a>
+          <a href="/docs" class="button">Documentation</a>
+          <a href="/blog" class="button">Blog</a>
+        </div>
+      </div>
+    </div>
+    {% include footer.html %}
+  </body>
 </html>

@@ -1,0 +1,13 @@
+body.single {
+  .main-container {
+    padding: 140px 0 80px;
+  }
+}
+
+@media (max-width: 767px) {
+  body.single {
+    .main-container {
+      padding: 100px 0 40px;
+    }
+  }
+}
