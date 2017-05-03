@@ -1,5 +1,5 @@
 ---
-layout: project_index
+layout: doc_index
 title:  "Index"
 categories: space
 ---

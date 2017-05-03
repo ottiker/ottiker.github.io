@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: doc
 title:  "Base structure"
 categories: docs space
 ---

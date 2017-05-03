@@ -1,6 +1,6 @@
 ---
-layout: home
-title: "Standard"
+layout: page
+title: "Planetary Technology Standard"
 ---
 
 TODO: Standard

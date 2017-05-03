@@ -108,6 +108,7 @@ body > div.bg-infinite > div.bg-infinite-3 {
 .nav-menu {
 }
 
+/* Hero navigation */
 .nav-hero {
 	position: fixed;
 	display: flex;
@@ -181,4 +182,24 @@ figure span:nth-child(2) {
 
 figure span:nth-child(2) > a {
 	color: @color-carbon;
+}
+
+/* Content */
+div.content,
+div.content-centered {
+	position: relative;
+	display: flex;
+	margin: @size-nav-main + (@size-nav-main / 2) 0; 	
+}
+
+div.content-centered > div:nth-child(1),
+div.content-centered > div:nth-child(3) {
+	flex-grow: 1;
+}
+div.content-centered > div:nth-child(2) {
+	flex-grow: 2;
+	flex-direction: column;
+}
+div.row {
+	display: flex;
 }
