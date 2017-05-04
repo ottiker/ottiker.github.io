@@ -1,7 +1,5 @@
 body.blog,
 body.docs {
-  padding-bottom: 60px;
-
   .main-container {
     font-size: 0;
 
@@ -143,6 +141,12 @@ body.docs {
 @media (max-width: 767px) {
   body.blog,
   body.docs {
+    padding-bottom: 60px;
+
+    .github-ribbon {
+      bottom: 60px;
+    }
+
     .main-container {
       min-height: calc(100vh - 92px);
       .content-container {
