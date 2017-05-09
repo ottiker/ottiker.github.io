@@ -1,11 +1,9 @@
 ---
 layout: doc
 title:  "Filtration"
-categories: docs water
+categories: docs water filtration
 ---
 
-TODO: Create index  
-TODO: Document things  
 # The 4 Levels of Filtration
 ## Textile FIlter
 The textile filter is used to remove the big chuncks out of the water, so the rest of the system gets less load, and therefor has to be replaced less often.

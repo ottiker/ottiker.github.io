@@ -54,9 +54,9 @@ collections:
     output: true
   heating:
     output: true
+  recycling:
+    output: true
   structure:
-    output: true
-  waste:
-    output: true
+    output: true 
   water:
     output: true
