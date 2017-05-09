@@ -48,9 +48,15 @@ navigation:
   - text: Team
     url: /team
 collections:
-  space:
+  digital:
     output: true
+  electricity:
+    output: true
+  heating:
+    output: true
+  recycling:
+    output: true
+  structure:
+    output: true 
   water:
-    output: true
-  power:
     output: true

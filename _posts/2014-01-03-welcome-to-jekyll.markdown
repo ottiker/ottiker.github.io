@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Space"
+title:  "Test post"
 date:   2014-01-03 22:48:35
-categories: group projects space
+categories: group projects test
 ---
 
 This is the content.

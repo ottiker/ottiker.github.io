@@ -1,10 +1,8 @@
 ---
 layout: doc
 title:  "Filtration"
-categories: docs water
+categories: docs water filtration
 ---
-
-Filtration!
 
 # The 4 Levels of Filtration
 ## Textile FIlter
