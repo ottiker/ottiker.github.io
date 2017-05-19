@@ -4,4 +4,4 @@ title:  "Photovoltaic"
 categories: docs electricity pv photovoltaic solar
 ---
 
-Use solar panels to generate electricity.
+Use solar panels to generate electricity. Test.
