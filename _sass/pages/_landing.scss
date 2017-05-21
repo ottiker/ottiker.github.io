@@ -6,13 +6,21 @@ body.landing {
     align-items: center;
     justify-content: center;
 
-    .sketch {
+    .sketch-container {
       position: absolute;
-      bottom: 0;
-      max-width: 900px;
+      bottom: -20px;
+      left: 0;
       width: 100%;
-      left: 50%;
-      transform: translate(-50%, 0);
+      height: 350px;
+      overflow: hidden;
+
+      .sketch {
+        max-width: initial;
+        height: 100%;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0);
+      }
     }
 
     .content-container {
@@ -23,6 +31,8 @@ body.landing {
       align-items: center;
       justify-content: center;
       height: 100%;
+      z-index: 1;
+      position: relative;
 
       h1.main-heading {
         font-size: 72px;
@@ -53,10 +63,10 @@ body.landing {
 @media (max-width: 767px) {
   body.landing {
     .main-container {
-      overflow: hidden;
 
-      .sketch {
-        width: 120%;
+      .sketch-container {
+        height: 180px;
+        bottom: -12px;
       }
 
       .content-container {

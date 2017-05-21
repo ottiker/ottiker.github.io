@@ -57,6 +57,6 @@ collections:
   recycling:
     output: true
   structure:
-    output: true 
+    output: true
   water:
     output: true
