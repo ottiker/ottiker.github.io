@@ -24,7 +24,7 @@ body.landing {
     }
 
     .content-container {
-      color: #fff;
+      color: $color-dark;
       text-align: center;
       display: flex;
       flex-direction: column;
@@ -36,7 +36,6 @@ body.landing {
 
       h1.main-heading {
         font-size: 72px;
-        font-style: italic;
         line-height: 60px;
         font-weight: 600;
       }
