@@ -4,7 +4,7 @@ title: "Standard"
 ---
 
 # Standard
-TODO: Publish standard text. 
+TODO: Publish standard text.
 
 ***
 
@@ -14,4 +14,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel mauris at
 
 ![Hello World][logo]{: .img-small}
 
-[logo]: http://placehold.it/512x256 "Hello world"
+[logo]: /img/placeholder_512x256.png "Hello world"

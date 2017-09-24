@@ -38,15 +38,15 @@ sass:
   style: compressed
 navigation:
   - text: Standard
-    url: /standard
+    url: /standard.html
   - text: Docs
-    url: /docs
+    url: /docs.html
   - text: Blog
-    url: /blog
+    url: /blog.html
   - text: Roadmap
-    url: /roadmap
+    url: /roadmap.html
   - text: Team
-    url: /team
+    url: /team.html
 collections:
   digital:
     output: true

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,700,700i');
+@import url('/css/ubuntu_font.css');
 
 // COLORS
 $color-accent: #E44A66;
@@ -70,14 +70,14 @@ $blue: #7fb6ff;
 $yellow: #f4ce7a;
 
 h1.fancy > span {
-	color:$blue;
-	animation:glow 6s infinite;
-	-webkit-animation:glow 6s infinite;
-	text-shadow:
-		-1px -1px 0 #000,
-		 1px -1px 0 #000,
-		-1px 1px 0 #000,
-		 1px 1px 0 #000;
+    color:$blue;
+    animation:glow 6s infinite;
+    -webkit-animation:glow 6s infinite;
+    text-shadow:
+        -1px -1px 0 #000,
+         1px -1px 0 #000,
+        -1px 1px 0 #000,
+         1px 1px 0 #000;
 }
 
 h1.fancy > span:nth-child(1){animation-delay:-0.5s;-webkit-animation-delay:-0.5s;}
@@ -89,29 +89,29 @@ h1.fancy > span:nth-child(6){animation-delay:-3s;-webkit-animation-delay:-3s;}
 
 @-webkit-keyframes glow {
   0% {
-	color:$blue;
+    color:$blue;
   }
   25% {
-	color:$green;
+    color:$green;
   }
   50% {
-	color:$red;
+    color:$red;
   }
   75% {
-	color:$yellow;
+    color:$yellow;
   }
 }
 @keyframes glow {
   0% {
-	color:$blue;
+    color:$blue;
   }
   25%{
-	color:$green;
+    color:$green;
   }
   50%{
-	color:$red;
+    color:$red;
   }
   75%{
-	color:$yellow;
+    color:$yellow;
   }
 }
